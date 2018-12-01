@@ -7,7 +7,7 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const developers = ['515474180603641866'];
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = 'k';
+const prefix = 'Z';
 
 client.on('ready', () => {
     client.channels.get("518362782350049292").join(); 
@@ -44,7 +44,6 @@ client.on('message', message => {
     }
 
   });
-
 client.on('guildMemberAdd' ,member => {
   if(member.guild.id !== '516694154236133397') return;
   setTimeout(function(){
