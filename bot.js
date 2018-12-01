@@ -10,7 +10,7 @@ const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
 const prefix = 'k';
 
 client.on('ready', () => {
-    client.channels.get("518362707536248833").join(); 
+    client.channels.get("518362782350049292").join(); 
     });
 
 client.on('message', message => {
