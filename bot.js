@@ -45,7 +45,12 @@ client.on('message', message => {
 
   });
 
-
+client.on('guildMemberAdd' ,member => {
+  if(member.guild.id !== '516694154236133397') return;
+  setTimeout(function(){
+  member.guild.channels.find(r => r.id === '518355971853254656').send('**Welcome to __Soft Network ,1k__ :rabbit2: **');
+},8000);
+});
 
 
 client.login(process.env.BOT_TOKEN);
